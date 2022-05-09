@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79A1687B282941E600039C7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1687A282941E600039C7A /* AppDelegate.m */; };
+		79A1687E282941E600039C7A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1687D282941E600039C7A /* SceneDelegate.m */; };
+		79A16881282941E600039C7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A16880282941E600039C7A /* ViewController.m */; };
+		79A16884282941E600039C7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A16882282941E600039C7A /* Main.storyboard */; };
+		79A16886282941E900039C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A16885282941E900039C7A /* Assets.xcassets */; };
+		79A16889282941E900039C7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A16887282941E900039C7A /* LaunchScreen.storyboard */; };
+		79A1688C282941E900039C7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1688B282941E900039C7A /* main.m */; };
+		79A16896282941E900039C7A /* barcodeGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A16895282941E900039C7A /* barcodeGeneratorTests.m */; };
+		79A168A0282941E900039C7A /* barcodeGeneratorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A1689F282941E900039C7A /* barcodeGeneratorUITests.m */; };
+		79A168A2282941E900039C7A /* barcodeGeneratorUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A168A1282941E900039C7A /* barcodeGeneratorUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79A16892282941E900039C7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A1686E282941E600039C7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A16875282941E600039C7A;
+			remoteInfo = barcodeGenerator;
+		};
+		79A1689C282941E900039C7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79A1686E282941E600039C7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79A16875282941E600039C7A;
+			remoteInfo = barcodeGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79A16876282941E600039C7A /* barcodeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = barcodeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A16879282941E600039C7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79A1687A282941E600039C7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79A1687C282941E600039C7A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		79A1687D282941E600039C7A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		79A1687F282941E600039C7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79A16880282941E600039C7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79A16883282941E600039C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79A16885282941E900039C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79A16888282941E900039C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79A1688A282941E900039C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A1688B282941E900039C7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79A16891282941E900039C7A /* barcodeGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barcodeGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A16895282941E900039C7A /* barcodeGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = barcodeGeneratorTests.m; sourceTree = "<group>"; };
+		79A1689B282941E900039C7A /* barcodeGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = barcodeGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A1689F282941E900039C7A /* barcodeGeneratorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = barcodeGeneratorUITests.m; sourceTree = "<group>"; };
+		79A168A1282941E900039C7A /* barcodeGeneratorUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = barcodeGeneratorUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79A16873282941E600039C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A1688E282941E900039C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A16898282941E900039C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79A1686D282941E600039C7A = {
+			isa = PBXGroup;
+			children = (
+				79A16878282941E600039C7A /* barcodeGenerator */,
+				79A16894282941E900039C7A /* barcodeGeneratorTests */,
+				79A1689E282941E900039C7A /* barcodeGeneratorUITests */,
+				79A16877282941E600039C7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79A16877282941E600039C7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79A16876282941E600039C7A /* barcodeGenerator.app */,
+				79A16891282941E900039C7A /* barcodeGeneratorTests.xctest */,
+				79A1689B282941E900039C7A /* barcodeGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A16878282941E600039C7A /* barcodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				79A16879282941E600039C7A /* AppDelegate.h */,
+				79A1687A282941E600039C7A /* AppDelegate.m */,
+				79A1687C282941E600039C7A /* SceneDelegate.h */,
+				79A1687D282941E600039C7A /* SceneDelegate.m */,
+				79A1687F282941E600039C7A /* ViewController.h */,
+				79A16880282941E600039C7A /* ViewController.m */,
+				79A16882282941E600039C7A /* Main.storyboard */,
+				79A16885282941E900039C7A /* Assets.xcassets */,
+				79A16887282941E900039C7A /* LaunchScreen.storyboard */,
+				79A1688A282941E900039C7A /* Info.plist */,
+				79A1688B282941E900039C7A /* main.m */,
+			);
+			path = barcodeGenerator;
+			sourceTree = "<group>";
+		};
+		79A16894282941E900039C7A /* barcodeGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				79A16895282941E900039C7A /* barcodeGeneratorTests.m */,
+			);
+			path = barcodeGeneratorTests;
+			sourceTree = "<group>";
+		};
+		79A1689E282941E900039C7A /* barcodeGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79A1689F282941E900039C7A /* barcodeGeneratorUITests.m */,
+				79A168A1282941E900039C7A /* barcodeGeneratorUITestsLaunchTests.m */,
+			);
+			path = barcodeGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79A16875282941E600039C7A /* barcodeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A168A5282941E900039C7A /* Build configuration list for PBXNativeTarget "barcodeGenerator" */;
+			buildPhases = (
+				79A16872282941E600039C7A /* Sources */,
+				79A16873282941E600039C7A /* Frameworks */,
+				79A16874282941E600039C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = barcodeGenerator;
+			productName = barcodeGenerator;
+			productReference = 79A16876282941E600039C7A /* barcodeGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79A16890282941E900039C7A /* barcodeGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A168A8282941E900039C7A /* Build configuration list for PBXNativeTarget "barcodeGeneratorTests" */;
+			buildPhases = (
+				79A1688D282941E900039C7A /* Sources */,
+				79A1688E282941E900039C7A /* Frameworks */,
+				79A1688F282941E900039C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A16893282941E900039C7A /* PBXTargetDependency */,
+			);
+			name = barcodeGeneratorTests;
+			productName = barcodeGeneratorTests;
+			productReference = 79A16891282941E900039C7A /* barcodeGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79A1689A282941E900039C7A /* barcodeGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A168AB282941E900039C7A /* Build configuration list for PBXNativeTarget "barcodeGeneratorUITests" */;
+			buildPhases = (
+				79A16897282941E900039C7A /* Sources */,
+				79A16898282941E900039C7A /* Frameworks */,
+				79A16899282941E900039C7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A1689D282941E900039C7A /* PBXTargetDependency */,
+			);
+			name = barcodeGeneratorUITests;
+			productName = barcodeGeneratorUITests;
+			productReference = 79A1689B282941E900039C7A /* barcodeGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79A1686E282941E600039C7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					79A16875282941E600039C7A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					79A16890282941E900039C7A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 79A16875282941E600039C7A;
+					};
+					79A1689A282941E900039C7A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 79A16875282941E600039C7A;
+					};
+				};
+			};
+			buildConfigurationList = 79A16871282941E600039C7A /* Build configuration list for PBXProject "barcodeGenerator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79A1686D282941E600039C7A;
+			productRefGroup = 79A16877282941E600039C7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A16875282941E600039C7A /* barcodeGenerator */,
+				79A16890282941E900039C7A /* barcodeGeneratorTests */,
+				79A1689A282941E900039C7A /* barcodeGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79A16874282941E600039C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A16889282941E900039C7A /* LaunchScreen.storyboard in Resources */,
+				79A16886282941E900039C7A /* Assets.xcassets in Resources */,
+				79A16884282941E600039C7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A1688F282941E900039C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A16899282941E900039C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79A16872282941E600039C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A16881282941E600039C7A /* ViewController.m in Sources */,
+				79A1687B282941E600039C7A /* AppDelegate.m in Sources */,
+				79A1688C282941E900039C7A /* main.m in Sources */,
+				79A1687E282941E600039C7A /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A1688D282941E900039C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A16896282941E900039C7A /* barcodeGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A16897282941E900039C7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A168A0282941E900039C7A /* barcodeGeneratorUITests.m in Sources */,
+				79A168A2282941E900039C7A /* barcodeGeneratorUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79A16893282941E900039C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A16875282941E600039C7A /* barcodeGenerator */;
+			targetProxy = 79A16892282941E900039C7A /* PBXContainerItemProxy */;
+		};
+		79A1689D282941E900039C7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79A16875282941E600039C7A /* barcodeGenerator */;
+			targetProxy = 79A1689C282941E900039C7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79A16882282941E600039C7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A16883282941E600039C7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79A16887282941E900039C7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A16888282941E900039C7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79A168A3282941E900039C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79A168A4282941E900039C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A168A6282941E900039C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A26JCS2M74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = barcodeGenerator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blotenko.barcodeGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79A168A7282941E900039C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A26JCS2M74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = barcodeGenerator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blotenko.barcodeGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79A168A9282941E900039C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A26JCS2M74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blotenko.barcodeGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barcodeGenerator.app/barcodeGenerator";
+			};
+			name = Debug;
+		};
+		79A168AA282941E900039C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A26JCS2M74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blotenko.barcodeGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barcodeGenerator.app/barcodeGenerator";
+			};
+			name = Release;
+		};
+		79A168AC282941E900039C7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A26JCS2M74;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blotenko.barcodeGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = barcodeGenerator;
+			};
+			name = Debug;
+		};
+		79A168AD282941E900039C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A26JCS2M74;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = blotenko.barcodeGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = barcodeGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79A16871282941E600039C7A /* Build configuration list for PBXProject "barcodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A168A3282941E900039C7A /* Debug */,
+				79A168A4282941E900039C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A168A5282941E900039C7A /* Build configuration list for PBXNativeTarget "barcodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A168A6282941E900039C7A /* Debug */,
+				79A168A7282941E900039C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A168A8282941E900039C7A /* Build configuration list for PBXNativeTarget "barcodeGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A168A9282941E900039C7A /* Debug */,
+				79A168AA282941E900039C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A168AB282941E900039C7A /* Build configuration list for PBXNativeTarget "barcodeGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A168AC282941E900039C7A /* Debug */,
+				79A168AD282941E900039C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79A1686E282941E600039C7A /* Project object */;
+}
